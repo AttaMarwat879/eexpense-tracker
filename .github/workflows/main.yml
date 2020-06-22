@@ -42,4 +42,4 @@ jobs:
       run: yarn build
       
     - name: deploying on surge
-      run: surge ./build http://expense-tracker-piaic_55447.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://expensetrackerbyattta.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
